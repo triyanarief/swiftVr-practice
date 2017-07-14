@@ -1,0 +1,652 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9A86591D503EE495FF003A3 /* Pods_SimVR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE737C38AD9CDABADAB2AC3F /* Pods_SimVR.framework */; };
+		CC23E4281CE2E83E00D01ED4 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC23E4271CE2E83E00D01ED4 /* RegisterViewController.swift */; };
+		CC23E42A1CE2EB0700D01ED4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CC23E4291CE2EB0700D01ED4 /* icon.png */; };
+		CCD242C51CDA579A003620A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD242C41CDA579A003620A6 /* AppDelegate.swift */; };
+		CCD242C71CDA579A003620A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD242C61CDA579A003620A6 /* ViewController.swift */; };
+		CCD242CA1CDA579A003620A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD242C81CDA579A003620A6 /* Main.storyboard */; };
+		CCD242CC1CDA579B003620A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCD242CB1CDA579B003620A6 /* Assets.xcassets */; };
+		CCD242CF1CDA579B003620A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCD242CD1CDA579B003620A6 /* LaunchScreen.storyboard */; };
+		CCD242DA1CDA579B003620A6 /* SimVRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD242D91CDA579B003620A6 /* SimVRTests.swift */; };
+		CCD242E51CDA579B003620A6 /* SimVRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD242E41CDA579B003620A6 /* SimVRUITests.swift */; };
+		CCD242F51CDA67D0003620A6 /* libCardboardSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD242F41CDA67D0003620A6 /* libCardboardSDK.a */; };
+		CCD242F81CDBB6C6003620A6 /* Socket_IO_Client_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCD242F71CDBB6C6003620A6 /* Socket_IO_Client_Swift.framework */; };
+		CCD242FA1CDDA853003620A6 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD242F91CDDA853003620A6 /* VideoViewController.swift */; };
+		CCD242FC1CDDBB35003620A6 /* SocketIOManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD242FB1CDDBB35003620A6 /* SocketIOManager.swift */; };
+		CCD242FE1CDEC533003620A6 /* nurse_cap.png in Resources */ = {isa = PBXBuildFile; fileRef = CCD242FD1CDEC533003620A6 /* nurse_cap.png */; };
+		CCD243081CDFC280003620A6 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CCD243071CDFC280003620A6 /* test.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCD242D61CDA579B003620A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD242B91CDA579A003620A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD242C01CDA579A003620A6;
+			remoteInfo = SimVR;
+		};
+		CCD242E11CDA579B003620A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCD242B91CDA579A003620A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCD242C01CDA579A003620A6;
+			remoteInfo = SimVR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		765B69475F48DD8265101507 /* Pods-SimVR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimVR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimVR/Pods-SimVR.debug.xcconfig"; sourceTree = "<group>"; };
+		82E8039E3AB341CCC922FE4E /* Pods-SimVR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimVR.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimVR/Pods-SimVR.release.xcconfig"; sourceTree = "<group>"; };
+		CC23E4271CE2E83E00D01ED4 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CC23E4291CE2EB0700D01ED4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		CCD242C11CDA579A003620A6 /* SimVR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimVR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD242C41CDA579A003620A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCD242C61CDA579A003620A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCD242C91CDA579A003620A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCD242CB1CDA579B003620A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCD242CE1CDA579B003620A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCD242D01CDA579B003620A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD242D51CDA579B003620A6 /* SimVRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimVRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD242D91CDA579B003620A6 /* SimVRTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimVRTests.swift; sourceTree = "<group>"; };
+		CCD242DB1CDA579B003620A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD242E01CDA579B003620A6 /* SimVRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimVRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD242E41CDA579B003620A6 /* SimVRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimVRUITests.swift; sourceTree = "<group>"; };
+		CCD242E61CDA579B003620A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD242F21CDA6784003620A6 /* CardboardSDK */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CardboardSDK; path = Pods/CardboardSDK; sourceTree = "<group>"; };
+		CCD242F41CDA67D0003620A6 /* libCardboardSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCardboardSDK.a; path = Pods/CardboardSDK/Libraries/libCardboardSDK.a; sourceTree = "<group>"; };
+		CCD242F61CDB0556003620A6 /* SimVR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimVR-Bridging-Header.h"; sourceTree = "<group>"; };
+		CCD242F71CDBB6C6003620A6 /* Socket_IO_Client_Swift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Socket_IO_Client_Swift.framework; path = "Pods/../build/Release-iphoneos/Socket.IO-Client-Swift/Socket_IO_Client_Swift.framework"; sourceTree = "<group>"; };
+		CCD242F91CDDA853003620A6 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		CCD242FB1CDDBB35003620A6 /* SocketIOManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIOManager.swift; sourceTree = "<group>"; };
+		CCD242FD1CDEC533003620A6 /* nurse_cap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = nurse_cap.png; path = ../../../../Downloads/nurse_cap.png; sourceTree = "<group>"; };
+		CCD243071CDFC280003620A6 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		EE737C38AD9CDABADAB2AC3F /* Pods_SimVR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimVR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCD242BE1CDA579A003620A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD242F81CDBB6C6003620A6 /* Socket_IO_Client_Swift.framework in Frameworks */,
+				CCD242F51CDA67D0003620A6 /* libCardboardSDK.a in Frameworks */,
+				A9A86591D503EE495FF003A3 /* Pods_SimVR.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD242D21CDA579B003620A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD242DD1CDA579B003620A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F9D5E4B08CC26E121EE6D5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCD242F71CDBB6C6003620A6 /* Socket_IO_Client_Swift.framework */,
+				CCD242F41CDA67D0003620A6 /* libCardboardSDK.a */,
+				CCD242F21CDA6784003620A6 /* CardboardSDK */,
+				EE737C38AD9CDABADAB2AC3F /* Pods_SimVR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD242B81CDA579A003620A6 = {
+			isa = PBXGroup;
+			children = (
+				CCD242C31CDA579A003620A6 /* SimVR */,
+				CCD242D81CDA579B003620A6 /* SimVRTests */,
+				CCD242E31CDA579B003620A6 /* SimVRUITests */,
+				CCD242C21CDA579A003620A6 /* Products */,
+				F2707D80720F1051811133DE /* Pods */,
+				4F9D5E4B08CC26E121EE6D5C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCD242C21CDA579A003620A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCD242C11CDA579A003620A6 /* SimVR.app */,
+				CCD242D51CDA579B003620A6 /* SimVRTests.xctest */,
+				CCD242E01CDA579B003620A6 /* SimVRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCD242C31CDA579A003620A6 /* SimVR */ = {
+			isa = PBXGroup;
+			children = (
+				CCD243071CDFC280003620A6 /* test.mp4 */,
+				CCD242FD1CDEC533003620A6 /* nurse_cap.png */,
+				CCD242C41CDA579A003620A6 /* AppDelegate.swift */,
+				CCD242C61CDA579A003620A6 /* ViewController.swift */,
+				CC23E4291CE2EB0700D01ED4 /* icon.png */,
+				CC23E4271CE2E83E00D01ED4 /* RegisterViewController.swift */,
+				CCD242F91CDDA853003620A6 /* VideoViewController.swift */,
+				CCD242FB1CDDBB35003620A6 /* SocketIOManager.swift */,
+				CCD242C81CDA579A003620A6 /* Main.storyboard */,
+				CCD242CB1CDA579B003620A6 /* Assets.xcassets */,
+				CCD242CD1CDA579B003620A6 /* LaunchScreen.storyboard */,
+				CCD242D01CDA579B003620A6 /* Info.plist */,
+				CCD242F61CDB0556003620A6 /* SimVR-Bridging-Header.h */,
+			);
+			path = SimVR;
+			sourceTree = "<group>";
+		};
+		CCD242D81CDA579B003620A6 /* SimVRTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD242D91CDA579B003620A6 /* SimVRTests.swift */,
+				CCD242DB1CDA579B003620A6 /* Info.plist */,
+			);
+			path = SimVRTests;
+			sourceTree = "<group>";
+		};
+		CCD242E31CDA579B003620A6 /* SimVRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCD242E41CDA579B003620A6 /* SimVRUITests.swift */,
+				CCD242E61CDA579B003620A6 /* Info.plist */,
+			);
+			path = SimVRUITests;
+			sourceTree = "<group>";
+		};
+		F2707D80720F1051811133DE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				765B69475F48DD8265101507 /* Pods-SimVR.debug.xcconfig */,
+				82E8039E3AB341CCC922FE4E /* Pods-SimVR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCD242C01CDA579A003620A6 /* SimVR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD242E91CDA579B003620A6 /* Build configuration list for PBXNativeTarget "SimVR" */;
+			buildPhases = (
+				B2D0A2975267DF7F03417AF9 /* 📦 Check Pods Manifest.lock */,
+				CCD242BD1CDA579A003620A6 /* Sources */,
+				CCD242BE1CDA579A003620A6 /* Frameworks */,
+				CCD242BF1CDA579A003620A6 /* Resources */,
+				50D889AC9629160E84CA2DA8 /* 📦 Embed Pods Frameworks */,
+				C79B129A7309F13FF140E16C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimVR;
+			productName = SimVR;
+			productReference = CCD242C11CDA579A003620A6 /* SimVR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCD242D41CDA579B003620A6 /* SimVRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD242EC1CDA579B003620A6 /* Build configuration list for PBXNativeTarget "SimVRTests" */;
+			buildPhases = (
+				CCD242D11CDA579B003620A6 /* Sources */,
+				CCD242D21CDA579B003620A6 /* Frameworks */,
+				CCD242D31CDA579B003620A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD242D71CDA579B003620A6 /* PBXTargetDependency */,
+			);
+			name = SimVRTests;
+			productName = SimVRTests;
+			productReference = CCD242D51CDA579B003620A6 /* SimVRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCD242DF1CDA579B003620A6 /* SimVRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD242EF1CDA579B003620A6 /* Build configuration list for PBXNativeTarget "SimVRUITests" */;
+			buildPhases = (
+				CCD242DC1CDA579B003620A6 /* Sources */,
+				CCD242DD1CDA579B003620A6 /* Frameworks */,
+				CCD242DE1CDA579B003620A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD242E21CDA579B003620A6 /* PBXTargetDependency */,
+			);
+			name = SimVRUITests;
+			productName = SimVRUITests;
+			productReference = CCD242E01CDA579B003620A6 /* SimVRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCD242B91CDA579A003620A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jessie Deot";
+				TargetAttributes = {
+					CCD242C01CDA579A003620A6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = E23JQ4UR78;
+					};
+					CCD242D41CDA579B003620A6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCD242C01CDA579A003620A6;
+					};
+					CCD242DF1CDA579B003620A6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CCD242C01CDA579A003620A6;
+					};
+				};
+			};
+			buildConfigurationList = CCD242BC1CDA579A003620A6 /* Build configuration list for PBXProject "SimVR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCD242B81CDA579A003620A6;
+			productRefGroup = CCD242C21CDA579A003620A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCD242C01CDA579A003620A6 /* SimVR */,
+				CCD242D41CDA579B003620A6 /* SimVRTests */,
+				CCD242DF1CDA579B003620A6 /* SimVRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCD242BF1CDA579A003620A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD243081CDFC280003620A6 /* test.mp4 in Resources */,
+				CCD242FE1CDEC533003620A6 /* nurse_cap.png in Resources */,
+				CC23E42A1CE2EB0700D01ED4 /* icon.png in Resources */,
+				CCD242CF1CDA579B003620A6 /* LaunchScreen.storyboard in Resources */,
+				CCD242CC1CDA579B003620A6 /* Assets.xcassets in Resources */,
+				CCD242CA1CDA579A003620A6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD242D31CDA579B003620A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD242DE1CDA579B003620A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50D889AC9629160E84CA2DA8 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimVR/Pods-SimVR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D0A2975267DF7F03417AF9 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79B129A7309F13FF140E16C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimVR/Pods-SimVR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCD242BD1CDA579A003620A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD242FC1CDDBB35003620A6 /* SocketIOManager.swift in Sources */,
+				CC23E4281CE2E83E00D01ED4 /* RegisterViewController.swift in Sources */,
+				CCD242C71CDA579A003620A6 /* ViewController.swift in Sources */,
+				CCD242C51CDA579A003620A6 /* AppDelegate.swift in Sources */,
+				CCD242FA1CDDA853003620A6 /* VideoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD242D11CDA579B003620A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD242DA1CDA579B003620A6 /* SimVRTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCD242DC1CDA579B003620A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD242E51CDA579B003620A6 /* SimVRUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCD242D71CDA579B003620A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD242C01CDA579A003620A6 /* SimVR */;
+			targetProxy = CCD242D61CDA579B003620A6 /* PBXContainerItemProxy */;
+		};
+		CCD242E21CDA579B003620A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCD242C01CDA579A003620A6 /* SimVR */;
+			targetProxy = CCD242E11CDA579B003620A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCD242C81CDA579A003620A6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD242C91CDA579A003620A6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCD242CD1CDA579B003620A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCD242CE1CDA579B003620A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCD242E71CDA579B003620A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCD242E81CDA579B003620A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCD242EA1CDA579B003620A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 765B69475F48DD8265101507 /* Pods-SimVR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Socket.IO-Client-Swift",
+				);
+				INFOPLIST_FILE = SimVR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/CardboardSDK/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessieDeot.SimVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jessiedeot/Documents/XcodeWorkspace/SimVR/SimVR/SimVR-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		CCD242EB1CDA579B003620A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82E8039E3AB341CCC922FE4E /* Pods-SimVR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Release-iphoneos/Socket.IO-Client-Swift",
+				);
+				INFOPLIST_FILE = SimVR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/CardboardSDK/Libraries",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessieDeot.SimVR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jessiedeot/Documents/XcodeWorkspace/SimVR/SimVR/SimVR-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		CCD242ED1CDA579B003620A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimVRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessieDeot.SimVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimVR.app/SimVR";
+			};
+			name = Debug;
+		};
+		CCD242EE1CDA579B003620A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimVRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessieDeot.SimVRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimVR.app/SimVR";
+			};
+			name = Release;
+		};
+		CCD242F01CDA579B003620A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimVRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessieDeot.SimVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimVR;
+			};
+			name = Debug;
+		};
+		CCD242F11CDA579B003620A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimVRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JessieDeot.SimVRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimVR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCD242BC1CDA579A003620A6 /* Build configuration list for PBXProject "SimVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD242E71CDA579B003620A6 /* Debug */,
+				CCD242E81CDA579B003620A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD242E91CDA579B003620A6 /* Build configuration list for PBXNativeTarget "SimVR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD242EA1CDA579B003620A6 /* Debug */,
+				CCD242EB1CDA579B003620A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD242EC1CDA579B003620A6 /* Build configuration list for PBXNativeTarget "SimVRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD242ED1CDA579B003620A6 /* Debug */,
+				CCD242EE1CDA579B003620A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD242EF1CDA579B003620A6 /* Build configuration list for PBXNativeTarget "SimVRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCD242F01CDA579B003620A6 /* Debug */,
+				CCD242F11CDA579B003620A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCD242B91CDA579A003620A6 /* Project object */;
+}

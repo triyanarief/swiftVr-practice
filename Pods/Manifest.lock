@@ -1,0 +1,18 @@
+PODS:
+  - Alamofire (3.4.0)
+  - CardboardSDK (0.7.2)
+  - Socket.IO-Client-Swift (3.1.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.4.0)
+  - CardboardSDK (~> 0.7.2)
+  - Socket.IO-Client-Swift (~> 3.1.0)
+
+SPEC CHECKSUMS:
+  Alamofire: c19a627cefd6a95f840401c49ab1f124e07f54ee
+  CardboardSDK: 42aa8f9e638515abb5991460c3091edc969027d4
+  Socket.IO-Client-Swift: f80e4eec9f067ced71fbcdbfa55bf59ff0248e53
+
+PODFILE CHECKSUM: 14bb07f005c6277a091810ebb9349bd7205a0259
+
+COCOAPODS: 1.0.0.rc.1

@@ -1,0 +1,6 @@
+framework module Pods_SimVR {
+  umbrella header "Pods-SimVR-umbrella.h"
+
+  export *
+  module * { export * }
+}
